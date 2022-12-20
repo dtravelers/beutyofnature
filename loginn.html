@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<head>
+    <link rel="icon" href="logo/tourlogo.png " type="logo/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+
+    <title>login</title>
+    <style>
+    *{
+        margin:0px;
+        padding:0px;
+        font-family:'Lato', sans-serif ;
+      
+      }
+    .container{
+        display:flex;  
+        background-size: cover ;
+      
+    }
+    .modify{
+        height:100vh;
+        width:60%;
+        background-image:url(img/wal3.jpg);
+        background-size: cover;
+        display: flex;
+        padding-left: 60px;
+        justify-content: space-between;
+    }
+    .modify .logo{
+      display:flex;
+      width: 70px;
+      height:70px;
+     }
+     .modify ul{
+        display:flex;
+        list-style-type:none; 
+    }
+    .modify ul li{
+        margin:0px 10px;
+        font-size: large;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(4, 4, 29);
+    }
+     nav ul li a:hover{
+        color:rgb(243, 42, 42);
+    }
+    .left{
+        height:100vh; 
+        width:40%;
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        height: 700px;
+        background-color: rgb(21, 26, 26);
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        padding-left: 60px;
+        color: beige;
+        justify-content: space-around;
+    } 
+    .left .marg{
+        
+        width:400px;
+        height:500px;
+        border-radius:50px;
+        background-color: rgb(242, 248, 248);
+        align-self: center;
+        align-content: center;
+        align-items:center;
+        color:black;
+        justify-items: baseline;
+}
+.btn {
+        width: 50px;
+        height: 50px;
+        border-radius:50px;
+        background-color: rgb(16, 31, 31);
+        color: aqua;
+        font-size: medium;
+    }
+    .btn:hover{
+        color: rgb(28, 67, 240);
+    }
+</style>
+</head>
+<body>
+   
+<div class="container">
+    <div class="left">
+        <h2>Welcome Back!</h2>
+        <h5>hurry up!! limited seat are available.</h5>
+        <TABLE class="marg">
+              
+        <TR class="space">
+            <TD><label>Email ID:</label></TD>
+            <TD><INPUT TYPE="TEXT"></INPUT></TD>
+        </TR>
+        <TR>
+            <TD> <LABEL>PASSWORD:</LABEL> </TD>
+            <TD><INPUT TYPE="PASSWORD"></INPUT></TD>
+        </TR>
+       <tr> 
+         <td ><button class="btn">LogIn</button></td>
+        </tr>
+        </TABLE>
+       
+     <div >
+        <a class=signup href="signup">Sign up</a>
+        <a class=login href="login">Login</a>
+     </div>
+    </div>
+    <nav class="modify">
+        <div class="logo">
+            <img src="logo/tourlogo.png" alt="">
+          <h1>Beauty_Of_Nature</h1>
+        </div>
+        <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="signup.HTML">Signup</a></li>
+        <li><a href="loginn.html">LogIn</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+    </ul> 
+    </nav>
+
+</div>
+</body>
+</html>
